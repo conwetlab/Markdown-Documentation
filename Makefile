@@ -6,10 +6,10 @@ EXTENSIONS=-x "toc(title=Table of Contents)" \
 all: documentation.html
 
 documentation.html: documentation.md
-	$(MARKDOWN) $(EXTENSIONS) documentation.md > documentation.o
-	cat head.html  documentation.o footer.html > documentation.html
+	$(MARKDOWN) $(EXTENSIONS) documentation.md | \
+	cat head.html - footer.html > documentation.html
 
 clean:
-	rm -f documentation.html domentation.o
+	rm -f documentation.html 
 
 .PHONY: all

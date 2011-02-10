@@ -27,5 +27,8 @@ Usage
 
 Valid Syntax
 ------------
-TODO
+* [Standard Markdown](http://daringfireball.net/projects/markdown/syntax)
+* Images with captions:
+
+    !![Image Caption][Image Number](http://imageurl.org/image.png)
 

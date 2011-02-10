@@ -1,4 +1,5 @@
 [TOC]
+
 Header 1
 ========
 
@@ -29,7 +30,21 @@ tristique. Morbi convallis ultrices sem et mollis.
 
 ## Header 2 - Figures and contents ##
 
-TODO
+Phasellus euismod
+tellus et tortor pulvinar egestas. Praesent egestas pellentesque dolor commodo
+luctus. Pellentesque sit amet risus in arcu scelerisque hendrerit. Sed ut
+turpis cursus eros fringilla dapibus nec sed ipsum. Vestibulum consequat auctor
+nibh et lacinia. Nulla tristique lorem eu lectus sodales sollicitudin tristique
+sem aliquet. Cras lacinia semper venenatis. Pellentesque habitant morbi
+tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur at
+lectus in ligula laoreet iaculis. Integer quis nunc quis velit tempor
+pellentesque nec gravida massa. Nunc posuere mattis magna, ut fermentum sapien
+rutrum nec. Mauris lacus dui, eleifend sit amet vulputate et, facilisis tempor
+elit. Cras quis enim a odio luctus interdum ut aliquam justo. Cras rhoncus
+sapien quis turpis porttitor fermentum. Aenean quis purus at arcu vehicula
+tristique. Morbi convallis ultrices sem et mollis.
+
+!![With caption][1](http://www.definicionabc.com/wp-content/uploads/figura20imposible208.jpg)
 
 ### Header 3 - Source Code ##
 
@@ -37,7 +52,6 @@ TODO
      function(hello) {
         // My code here
      }
-Code highlight
 
     :::javascript
     var json = {
@@ -47,5 +61,17 @@ Code highlight
 
 ## Info and warning tooltips ##
 
-TODO 
-
+<div class="warning">
+<div class="title">Warning!</div>
+tellus et tortor pulvinar egestas. Praesent egestas pellentesque dolor commodo
+luctus. Pellentesque sit amet risus in arcu scelerisque hendrerit. Sed ut
+turpis cursus eros fringilla dapibus nec sed ipsum. Vestibulum consequat auctor
+nibh et lacinia. Nulla tristique lorem eu lectus sodales sollicitudin tristique
+</div>
+<div class="info">
+<div class="title">Info</div>
+tellus et tortor pulvinar egestas. Praesent egestas pellentesque dolor commodo
+luctus. Pellentesque sit amet risus in arcu scelerisque hendrerit. Sed ut
+turpis cursus eros fringilla dapibus nec sed ipsum. Vestibulum consequat auctor
+nibh et lacinia. Nulla tristique lorem eu lectus sodales sollicitudin tristique
+</div>

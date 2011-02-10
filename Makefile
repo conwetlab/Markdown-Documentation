@@ -1,7 +1,9 @@
 MARKDOWN?=markdown
+
 EXTENSIONS=-x "toc(title=Table of Contents)" \
            -x "html_tidy(output_xhtml=1,indent=1)" \
-	   -x codehilite
+	   -x codehilite \
+	   -x documentation
 
 all: documentation.html
 

@@ -32,9 +32,11 @@ Usage
 2. Modify the style.css according to your needs
 3. Choose an appropriate style for syntax.css. A list of valid code styles can be found in code style section. To select an specific style, run
 <pre>
-    $ pygmentize -S <style> -f html > syntax.css
+    $ pygmentize -S [style-name] -f html > syntax.css
 </pre>
+
 4. Add the installation directory to the PYTHONPATH
+
 <pre>
     $ export PYTHONPATH=.
 </pre>

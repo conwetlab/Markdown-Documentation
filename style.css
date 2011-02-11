@@ -22,6 +22,44 @@ p {
     text-align: justify;
 }
 
+a {
+    text-decoration: none;
+    color: #005599;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+strong {
+    color: #005599;
+}
+ul {
+    list-style-image: url("images/bullet.png");
+    text-align: justify;
+}
+ul li {
+    padding-top: 0.4ex;
+}
+code {
+    color: #005599;
+}
+dl {
+    width: 80%;
+    margin: 0 auto;
+    border: 1pt solid #888;
+    padding: 1ex;
+}
+dt {
+    color: #005599;
+    font-weight: bold;
+}
+dd {
+    text-align: justify;
+    padding: 0.5ex;
+}
+
+
 /** Common properties */
 .caption {
     margin-top: 1ex;
@@ -35,7 +73,7 @@ p {
 
 /** TOC */
 .toc {
-    width: 40%;
+    width: 60%;
     margin: 2ex 0ex;;
     padding: 1ex;
     border: 1pt solid #005599;
@@ -49,6 +87,7 @@ p {
 
 .toc ul {
     list-style-type: decimal;
+    list-style-image: none;
     padding-left: 3ex;
 }
 .toc li {
@@ -56,13 +95,6 @@ p {
     line-height: 98%;
 }
 
-.toc li a {
-    text-decoration: none;
-    color: #005599;
-}
-.toc li a:hover {
-    text-decoration: underline;
-}
 
 
 /** Figures */
@@ -73,13 +105,23 @@ p {
 
 /** Code */
 .codehilite {
-    width: 60%;
+    width: 80%;
     margin: 2ex auto;
 }
 .codehilite pre {
     border: 1pt solid #888;
     padding: 2ex;
+    overflow: auto;
 }
+
+/** Blockquote */
+blockquote p {
+    margin: 1em 1.5em;
+    padding-left: 5.5ex;
+    background: transparent url("images/quote.gif") no-repeat; 
+    color: #929292;
+    font-style: italic;   
+} 
 
 /** Info */
 .info, .warning {
@@ -97,9 +139,9 @@ p {
 }
 
 .info {
-    border: 1pt solid #255BDE;
+    border: 1pt solid #005599;
     background: url("images/info.png") no-repeat 2ex center #D0D6E4;
-    color: #2151CA; 
+    color: #005599; 
 }
 .warning {
     border: 1pt solid #EBD22E;

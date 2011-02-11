@@ -62,7 +62,7 @@ Valid Syntax
 </pre>
 * Images with captions:
 <pre>
-    !![Image Caption]\[Image Number\]\(http://imageurl.org/image.png\)
+    !![Image Caption][Image Number](http://imageurl.org/image.png)
 </pre>
 Available Code styles
 ---------------------

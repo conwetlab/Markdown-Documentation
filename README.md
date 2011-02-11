@@ -60,4 +60,4 @@ Valid Syntax
 
 * Images with captions:
 
-    !![Image Caption][Image Number](http://imageurl.org/image.png)
+    !![Image Caption]\[Image Number\]\(http://imageurl.org/image.png\)

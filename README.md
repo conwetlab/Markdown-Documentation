@@ -8,7 +8,6 @@ Download and Installation
 
 * Download the code
 <pre>
-
     $ git clone git://github.com/conwetlab/Markdown-Documentation.git
 </pre>
 * Install the dependencies
@@ -23,8 +22,9 @@ Dependencies
     $ sudo easy_install Markdown
 </pre>
 * Pygments. If you have setup tools installed, execute
-
+<pre>
     $ sudo easy_install Pygments
+</pre>
 
 Usage
 -----
@@ -32,7 +32,7 @@ Usage
 2. Modify the style.css according to your needs
 3. Choose an appropriate style for syntax.css. A list of valid code styles can be found in code style section. To select an specific style, run
 <pre>
-    $ pygmentize -S \<style\> -f html \> syntax.css
+    $ pygmentize -S <style> -f html > syntax.css
 </pre>
 4. Add the installation directory to the PYTHONPATH
 <pre>

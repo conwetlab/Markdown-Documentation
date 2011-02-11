@@ -51,18 +51,20 @@ Valid Syntax
     [TOC]
 
 * Definition lists:
-
+<pre>
     Item 1
     :   Definition1
     Item 2
     :   Definition2
-
+</pre>
 * Images with captions:
 
     !![Image Caption]\[Image Number\]\(http://imageurl.org/image.png\)
 
 Available Code styles
 ---------------------
+For more information about the available code styles, go to [Pygments homepage](http://pygments.org/)
+
 * nokai
 * manny
 * perldoc
